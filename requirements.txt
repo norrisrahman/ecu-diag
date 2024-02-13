@@ -3,7 +3,7 @@ pylibftdi
 pydispatcher
 requests
 attrdict3
-wxPython
+wxPython==4.0.3
 requests
 lxml
 numpy==1.15.4
