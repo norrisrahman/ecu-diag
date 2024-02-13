@@ -3,7 +3,7 @@ import git
 import glob
 
 r = git.repo.Repo()
-v = r.git.describe("--tags")
+v = "1.0.1"
 for f in glob.glob("dist/*.exe"):
     fn = list(os.path.splitext(f))
     fn[0] += "-"
